@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PetSphere</title>
+    <!-- Include Tailwind CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.4/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assests/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="flex justify-between items-center p-4 bg-white shadow-md">
+      <div class="logo">
+        <img src="./assests/images/logo.png" alt="" />
+      </div>
+      <nav class="flex gap-4">
+        <!-- Navigation Links -->
+        <a href="#" class="text-gray-600 hover:text-gray-900">Forum</a>
+        <a href="#" class="text-gray-600 hover:text-gray-900">Service</a>
+        <a href="#" class="text-gray-600 hover:text-gray-900">Shop</a>
+        <a href="#" class="text-gray-600 hover:text-gray-900">About</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero-content">
+      <h1>Welcome to PetSphere</h1>
+      <p>
+        your one-stop community platform uniting pet enthusiasts for care,
+        connection, and community, all in one vibrant hub.
+      </p>
+    </div>
+    <section class="hero-section">
+      <div class="hero-images">
+        <div class="hero-left">
+          <img
+            src="./assests/images/heros/golden.png"
+            alt="Happy Dog"
+            class="hero-image-1"
+          />
+        </div>
+
+        <div class="hero-right">
+          <div class="service-provider">
+            <img
+              src="./assests/images/heros/walking.png"
+              alt=""
+              class="hero-image-2"
+            />
+            <p>
+              <span class="headline">Laura Maynard</span><br />North Oakland,
+              Pittsburgh<br />Dog Walker For 3 Years<br />Available Nov.30 -
+              Dec.12
+            </p>
+          </div>
+
+          <div class="service-provider">
+            <img
+              src="./assests/images/heros/feeding.png"
+              alt=""
+              class="hero-image-3"
+            />
+            <p>
+              <span class="headline">Audry</span><br />Shadyside, Pittsburgh<br />Dog
+              Sitter For 1 Years<br />Available Today
+            </p>
+          </div>
+
+          <div class="service-provider">
+            <img
+              src="./assests/images/heros/daycare.png"
+              alt=""
+              class="hero-image-4"
+            />
+            <p>
+              <span class="headline">Elanor</span><br />Squirrel Hill,
+              Pittsburgh<br />Dog Walker For 4 Months<br />Available Tomorrow
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="find-service-btn">Find Service Near You</button>
+    </section>
+
+    <!-- Cards Section -->
+    <div class="section-headline">
+      <h1>Trending Posts</h1>
+    </div>
+    <div class="trending-section">
+      <div class="card-container">
+        <!-- Card 1 -->
+        <div class="card">
+          <img
+            src="./assests/images/posts/shiba1.jpg"
+            alt="Pet"
+            class="pet-image"
+          />
+          <div class="card-tags">
+            <span>Shopping</span>
+            <span>Snacks</span>
+            <span>Dog</span>
+          </div>
+          <h3 class="card-title">3 snacks that my dog likes the most!</h3>
+          <div class="card-info">
+            <img
+              src="./assests/images/profiles/momo.jpeg"
+              alt="User"
+              class="user-avatar"
+            />
+            <span class="username">Andrew</span>
+            <span class="icon-comments">
+              <i class="far fa-comment" aria-hidden="true"></i>
+              230
+            </span>
+            <span class="icon-likes">
+              <i class="far fa-heart" aria-hidden="true"></i>2k
+            </span>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+          <img src="assests/images/posts/lab.png" alt="Pet" class="pet-image" />
+          <div class="card-tags">
+            <span>Shopping</span>
+            <span>Snacks</span>
+            <span>Dog</span>
+          </div>
+          <h3 class="card-title">Homemade snack for our lab</h3>
+          <div class="card-info">
+            <img
+              src="./assests/images/profiles/dm.png"
+              alt="User"
+              class="user-avatar"
+            />
+            <span class="username">D.M.</span>
+            <span class="icon-comments">
+              <i class="far fa-comment" aria-hidden="true"></i>
+              560
+            </span>
+            <span class="icon-likes">
+              <i class="far fa-heart" aria-hidden="true"></i>5.4k
+            </span>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="card">
+          <img
+            src="./assests/images/posts/duck.jpg"
+            alt="Pet"
+            class="pet-image"
+          />
+          <div class="card-tags">
+            <span>Trip</span>
+            <span>Duck</span>
+          </div>
+          <h3 class="card-title">Duck Outings</h3>
+          <div class="card-info">
+            <img
+              src="./assests/images/profiles/lucy.png"
+              alt="User"
+              class="user-avatar"
+            />
+            <span class="username">Lucy</span>
+            <span class="icon-comments">
+              <i class="far fa-comment" aria-hidden="true"></i>
+              230
+            </span>
+            <span class="icon-likes">
+              <i class="far fa-heart" aria-hidden="true"></i>2.8k
+            </span>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="card">
+          <img
+            src="./assests/images/posts/shiba0.jpg"
+            alt="Pet"
+            class="pet-image"
+          />
+          <div class="card-tags">
+            <span>Trip</span>
+            <span>Healthy</span>
+            <span>Dogs</span>
+          </div>
+          <h3 class="card-title">Homemade Banquet!</h3>
+          <div class="card-info">
+            <img
+              src="./assests/images/profiles/kayprofile.png"
+              alt="User"
+              class="user-avatar"
+            />
+            <span class="username">K.Q.</span>
+            <span class="icon-comments">
+              <i class="far fa-comment" aria-hidden="true"></i>
+              180
+            </span>
+            <span class="icon-likes">
+              <i class="far fa-heart" aria-hidden="true"></i>3.2k
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="more-post">
+      <button class="more-post-btn">See more posts</button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-container">
+      <div class="footer-section">
+        <h4>FORUM</h4>
+        <a href="#">Log in</a>
+        <a href="#">Pet Forum</a>
+      </div>
+      <div class="footer-section">
+        <h4>FIND SERVICE</h4>
+        <a href="#">Provide Service</a>
+        <a href="#">Find Provider</a>
+      </div>
+      <div class="footer-section">
+        <h4>SHOPPING</h4>
+        <a href="#">Food/Snacks</a>
+        <a href="#">Toys</a>
+      </div>
+      <div class="footer-section">
+        <h4>ABOUT US</h4>
+        <a href="#">FAQ</a>
+        <a href="#">Help/Support</a>
+      </div>
+
+      <div class="footer-section social-media">
+        <div class="footer-section logo">
+          <img src="./assests/images/logo.png" alt="" />
+        </div>
+        <!-- Social Media -->
+        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
